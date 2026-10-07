@@ -1,0 +1,8 @@
+{
+  "name": "LAGUNA MUSIK",
+  "description": "Premium AI Music Creator web application powered by Kie.ai API - Studio-quality tracks, auto lyrics, mastering, and audio library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

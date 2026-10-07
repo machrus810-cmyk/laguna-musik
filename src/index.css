@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-shimmer: shimmer 1s linear infinite;
+  @keyframes shimmer {
+    from {
+      background-position: 1rem 0;
+    }
+    to {
+      background-position: 0 0;
+    }
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 8s linear infinite;
+}
